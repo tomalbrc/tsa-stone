@@ -1,0 +1,13 @@
+{
+  "id": "tsa:limestone_bricks",
+  "blockResource": {
+    "models" : {
+      "default": "minecraft:custom/block/stone/limestone_bricks"
+    }
+  },
+  "blockModelType": "full_block",
+  "properties": {
+    "blockBase": "minecraft:stone",
+    "itemBase": "minecraft:paper"
+  }
+}

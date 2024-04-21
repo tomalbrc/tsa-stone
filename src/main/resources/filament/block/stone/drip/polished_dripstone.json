@@ -1,0 +1,13 @@
+{
+  "id": "tsa:polished_dripstone_block",
+  "blockResource": {
+    "models" : {
+      "default": "minecraft:custom/block/dripstone/polished_dripstone"
+    }
+  },
+  "blockModelType": "full_block",
+  "properties": {
+    "blockBase": "minecraft:dripstone_block",
+    "itemBase": "minecraft:paper"
+  }
+}

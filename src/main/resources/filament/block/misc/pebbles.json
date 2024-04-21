@@ -1,0 +1,23 @@
+{
+  "id": "tsa:pebbles",
+  "blockResource": {
+    "models": {
+      "1": "minecraft:custom/block/stone/pebbles_1",
+      "2": "minecraft:custom/block/stone/pebbles_2",
+      "3": "minecraft:custom/block/stone/pebbles_3",
+      "4": "minecraft:custom/block/stone/pebbles_4"
+    }
+  },
+  "itemResource": {
+    "models": {
+      "default": "minecraft:custom/block/stone/pebbles_item"
+    }
+  },
+  "type": "count",
+  "blockModelType": "biome_plant_block",
+  "properties": {
+    "destroyTime": 0,
+    "blockBase": "minecraft:stone",
+    "itemBase": "minecraft:paper"
+  }
+}

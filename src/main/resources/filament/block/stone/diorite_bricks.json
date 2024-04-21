@@ -1,0 +1,13 @@
+{
+  "id": "tsa:diorite_bricks",
+  "blockResource": {
+    "models" : {
+      "default": "minecraft:custom/block/stone/diorite_bricks"
+    }
+  },
+  "blockModelType": "full_block",
+  "properties": {
+    "blockBase": "minecraft:polished_diorite",
+    "itemBase": "minecraft:paper"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "tsa:granite_bricks",
+  "blockResource": {
+    "models" : {
+      "default": "minecraft:custom/block/stone/granite_bricks"
+    }
+  },
+  "blockModelType": "full_block",
+  "properties": {
+    "blockBase": "minecraft:polished_granite",
+    "itemBase": "minecraft:paper"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "tsa:dripstone_bricks",
+  "blockResource": {
+    "models" : {
+      "default": "minecraft:custom/block/dripstone/dripstone_bricks"
+    }
+  },
+  "blockModelType": "full_block",
+  "properties": {
+    "blockBase": "minecraft:dripstone_block",
+    "itemBase": "minecraft:paper"
+  }
+}

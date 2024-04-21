@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "tsa-stone",
+  "version": "${version}",
+  "name": "tsa-stone",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/tomalbrc/tsa-stone"
+  },
+  "license": "MIT",
+  "icon": "tsa-stone-icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "de.tomalbrc.tsastone.TSAStone"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}",
+    "filament": ">=0.3.3"
+  }
+}

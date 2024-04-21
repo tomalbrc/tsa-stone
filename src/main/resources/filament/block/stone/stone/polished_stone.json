@@ -1,0 +1,13 @@
+{
+  "id": "tsa:polished_stone",
+  "blockResource": {
+    "models" : {
+      "default": "minecraft:custom/block/stone/polished_stone"
+    }
+  },
+  "blockModelType": "full_block",
+  "properties": {
+    "blockBase": "minecraft:stone",
+    "itemBase": "minecraft:paper"
+  }
+}

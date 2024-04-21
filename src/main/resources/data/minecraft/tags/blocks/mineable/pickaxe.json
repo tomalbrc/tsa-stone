@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "tsa:diorite_bricks",
+    "tsa:dripstone_bricks",
+    "tsa:polished_dripstone_block",
+    "tsa:polished_limestone",
+    "tsa:limestone",
+    "tsa:limestone_bricks",
+    "tsa:andesite_bricks",
+    "tsa:polished_stone",
+    "tsa:granite_bricks",
+    "tsa:large_bricks"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "tsa:andesite_bricks",
+  "blockResource": {
+    "models" : {
+      "default": "minecraft:custom/block/stone/andesite_bricks"
+    }
+  },
+  "blockModelType": "full_block",
+  "properties": {
+    "blockBase": "minecraft:polished_andesite",
+    "itemBase": "minecraft:paper"
+  }
+}
