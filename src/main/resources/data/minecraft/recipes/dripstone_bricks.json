@@ -10,7 +10,7 @@
         }
     },
     "result": {
-        "item": "tsa:dripstone_bricks",
+        "id": "tsa:dripstone_bricks",
         "count": 4
     }
 }

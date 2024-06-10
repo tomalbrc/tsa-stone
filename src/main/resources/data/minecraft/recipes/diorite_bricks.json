@@ -10,7 +10,7 @@
         }
     },
     "result": {
-        "item": "tsa:diorite_bricks",
+        "id": "tsa:diorite_bricks",
         "count": 4
     }
 }

@@ -3,6 +3,8 @@
   "ingredient": {
     "item": "minecraft:cobblestone"
   },
-  "result": "tsa:pebbles",
-  "count": 4
+  "result": {
+    "id": "tsa:pebbles",
+    "count": 4
+  }
 }

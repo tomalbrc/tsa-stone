@@ -15,7 +15,7 @@
         },
         "has_the_recipe": {
             "conditions": {
-                "recipe": "minecraft:polished_limestone"
+                "recipe": "minecraft:polished_stone"
             },
             "trigger": "minecraft:recipe_unlocked"
         }
@@ -23,12 +23,12 @@
     "requirements": [
         [
             "has_the_recipe",
-            "has_limestone"
+            "has_stone"
         ]
     ],
     "rewards": {
         "recipes": [
-            "minecraft:polished_limestone"
+            "minecraft:polished_stone"
         ]
     }
 }

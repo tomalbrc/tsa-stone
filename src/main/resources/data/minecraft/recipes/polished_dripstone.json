@@ -10,7 +10,7 @@
         }
     },
     "result": {
-        "item": "tsa:polished_dripstone_block",
+        "id": "tsa:polished_dripstone_block",
         "count": 4
     }
 }

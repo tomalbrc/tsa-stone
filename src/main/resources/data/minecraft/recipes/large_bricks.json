@@ -10,7 +10,7 @@
         }
     },
     "result": {
-        "item": "tsa:large_bricks",
+        "id": "tsa:large_bricks",
         "count": 1
     }
 }

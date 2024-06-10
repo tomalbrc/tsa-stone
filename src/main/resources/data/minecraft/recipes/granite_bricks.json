@@ -10,7 +10,7 @@
         }
     },
     "result": {
-        "item": "tsa:granite_bricks",
+        "id": "tsa:granite_bricks",
         "count": 4
     }
 }

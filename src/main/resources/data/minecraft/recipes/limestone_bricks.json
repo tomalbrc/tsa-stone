@@ -10,7 +10,7 @@
         }
     },
     "result": {
-        "item": "tsa:limestone_bricks",
+        "id": "tsa:limestone_bricks",
         "count": 4
     }
 }

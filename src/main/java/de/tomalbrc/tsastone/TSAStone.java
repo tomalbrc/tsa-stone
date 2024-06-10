@@ -103,7 +103,6 @@ public class TSAStone implements ModInitializer {
                 while (entries.hasMoreElements()) {
                     JarEntry entry = entries.nextElement();
                     String fileName = entry.getName();
-                    LOGGER.info(fileName);
                     if (!entry.isDirectory() && fileName.startsWith(rootPath) && fileName.endsWith(ext)) {
                         try (InputStream inputStream = jarFile.getInputStream(entry)) {
                             consumer.accept(inputStream);
