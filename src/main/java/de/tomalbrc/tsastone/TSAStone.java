@@ -71,7 +71,7 @@ public class TSAStone implements ModInitializer {
     public void registerModels(String path, String namespace) {
         search(f -> {
             try {
-                ModelRegistry.registerAjModel(f, new ResourceLocation(namespace, f.toString()));
+                ModelRegistry.registerAjModel(f, ResourceLocation.fromNamespaceAndPath(namespace, f.toString()));
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
@@ -79,12 +79,11 @@ public class TSAStone implements ModInitializer {
 
         search(f -> {
             try {
-                ModelRegistry.registerBbModel(f, new ResourceLocation(namespace, f.toString()));
+                ModelRegistry.registerBbModel(f, ResourceLocation.fromNamespaceAndPath(namespace, f.toString()));
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
         }, path, ".bbmodel");
-
     }
 
     public static void search(Consumer<InputStream> registry, String path) {
