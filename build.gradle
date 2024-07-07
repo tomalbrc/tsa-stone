@@ -3,7 +3,7 @@ plugins {
     id 'maven-publish'
 }
 
-version = "${project.mod_version}+${project.minecraft_version}"
+version = "${project.mod_version}+${project.minecraft_version_min}-${project.minecraft_version}"
 group = project.maven_group
 
 base {
@@ -12,6 +12,10 @@ base {
 
 repositories {
     maven { url 'https://maven.nucleoid.xyz' }
+    maven {
+        name = "Jitpack"
+        url 'https://jitpack.io/'
+    }
     mavenLocal()
 }
 
@@ -27,7 +31,7 @@ dependencies {
     modImplementation ("eu.pb4:polymer-resource-pack:${project.polymer_version}")
     modImplementation ("eu.pb4:polymer-autohost:${project.polymer_version}")
 
-    modImplementation("de.tomalbrc:filament:0.3.4-SNAPSHOT+${project.minecraft_version}")
+    modImplementation("de.tomalbrc:filament:0.5.0+${project.minecraft_version}")
 }
 
 processResources {
@@ -43,7 +47,7 @@ processResources {
     }
 }
 
-def targetJavaVersion = 17
+def targetJavaVersion = 21
 tasks.withType(JavaCompile).configureEach {
     // ensure that the encoding is set to UTF-8, no matter what the system default is
     // this fixes some edge cases with special characters not displaying correctly

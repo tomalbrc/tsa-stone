@@ -19,7 +19,7 @@
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
-    "minecraft": "${minecraft_version}",
-    "filament": ">=0.3.3"
+    "minecraft": ">=1.20.1",
+    "filament": ">=0.5.0"
   }
 }
