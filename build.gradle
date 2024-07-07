@@ -12,11 +12,7 @@ base {
 
 repositories {
     maven { url 'https://maven.nucleoid.xyz' }
-    maven {
-        name = "Jitpack"
-        url 'https://jitpack.io/'
-    }
-    mavenLocal()
+    maven { url 'https://jitpack.io/' }
 }
 
 dependencies {
