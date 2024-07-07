@@ -14,7 +14,7 @@
     }
   },
   "type": "count",
-  "blockModelType": "biome_plant_block",
+  "blockModelType": "tripwire_block",
   "properties": {
     "destroyTime": 0,
     "blockBase": "minecraft:stone",

@@ -6,11 +6,11 @@
     ],
     "key": {
         "#": {
-            "item": "tsa:limestone"
+            "item": "minecraft:polished_diorite"
         }
     },
     "result": {
-        "item": "tsa:polished_limestone",
+        "id": "tsa:diorite_bricks",
         "count": 4
     }
 }

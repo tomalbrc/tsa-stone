@@ -6,11 +6,11 @@
     ],
     "key": {
         "#": {
-            "item": "minecraft:bricks"
+            "item": "tsa:polished_limestone"
         }
     },
     "result": {
-        "item": "tsa:large_bricks",
-        "count": 1
+        "id": "tsa:limestone_bricks",
+        "count": 4
     }
 }

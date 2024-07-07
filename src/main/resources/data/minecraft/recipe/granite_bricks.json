@@ -6,11 +6,11 @@
     ],
     "key": {
         "#": {
-            "item": "minecraft:polished_andesite"
+            "item": "minecraft:polished_granite"
         }
     },
     "result": {
-        "item": "tsa:andesite_bricks",
+        "id": "tsa:granite_bricks",
         "count": 4
     }
 }

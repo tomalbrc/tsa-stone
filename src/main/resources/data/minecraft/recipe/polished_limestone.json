@@ -6,11 +6,11 @@
     ],
     "key": {
         "#": {
-            "item": "tsa:polished_limestone"
+            "item": "tsa:limestone"
         }
     },
     "result": {
-        "item": "tsa:limestone_bricks",
+        "id": "tsa:polished_limestone",
         "count": 4
     }
 }

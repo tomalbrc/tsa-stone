@@ -6,11 +6,11 @@
     ],
     "key": {
         "#": {
-            "item": "minecraft:dripstone_block"
+            "item": "minecraft:bricks"
         }
     },
     "result": {
-        "item": "tsa:polished_dripstone_block",
-        "count": 4
+        "id": "tsa:large_bricks",
+        "count": 1
     }
 }
