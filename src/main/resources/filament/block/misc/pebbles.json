@@ -18,8 +18,11 @@
   },
   "blockModelType": "tripwire_block",
   "properties": {
+    "replaceable": true,
+    "solid": false,
+    "transparent": true,
     "destroyTime": 0,
-    "blockBase": "minecraft:stone",
-    "itemBase": "minecraft:paper"
+    "explosionResistance": 0.5,
+    "blockBase": "minecraft:stone"
   }
 }

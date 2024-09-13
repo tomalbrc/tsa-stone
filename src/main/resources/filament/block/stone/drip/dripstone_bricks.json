@@ -7,6 +7,8 @@
   },
   "blockModelType": "full_block",
   "properties": {
+    "destroyTime": 1.5,
+    "explosionResistance": 6.0,
     "blockBase": "minecraft:dripstone_block",
     "itemBase": "minecraft:paper"
   }
