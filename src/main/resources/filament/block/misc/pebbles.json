@@ -23,6 +23,7 @@
     "transparent": true,
     "destroyTime": 0,
     "explosionResistance": 0.5,
-    "blockBase": "minecraft:stone"
+    "blockBase": "minecraft:stone",
+    "requiresTool": false
   }
 }
