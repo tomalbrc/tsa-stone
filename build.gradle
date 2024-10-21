@@ -1,9 +1,9 @@
 plugins {
-    id 'fabric-loom' version '1.6-SNAPSHOT'
+    id 'fabric-loom' version '1.7-SNAPSHOT'
     id 'maven-publish'
 }
 
-version = "${project.mod_version}+${project.minecraft_version_min}-${project.minecraft_version}"
+version = "${project.mod_version}+${project.minecraft_version_min}"
 group = project.maven_group
 
 base {
@@ -14,6 +14,7 @@ repositories {
     maven { url 'https://maven.nucleoid.xyz' }
     maven { url 'https://maven.tomalbrc.de' }
     maven { url 'https://jitpack.io/' }
+    mavenLocal()
 }
 
 dependencies {
@@ -28,7 +29,7 @@ dependencies {
     modImplementation ("eu.pb4:polymer-resource-pack:${project.polymer_version}")
     modImplementation ("eu.pb4:polymer-autohost:${project.polymer_version}")
 
-    modImplementation("de.tomalbrc:filament:0.5.0+${project.minecraft_version}")
+    modImplementation("de.tomalbrc:filament:0.9.3+${project.minecraft_version}")
 }
 
 processResources {

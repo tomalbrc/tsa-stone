@@ -2,7 +2,7 @@
   "id": "tsa:diorite_bricks",
   "blockResource": {
     "models" : {
-      "default": "minecraft:custom/block/stone/diorite_bricks"
+      "default": "minecraft:item/custom/block/stone/diorite_bricks"
     }
   },
   "blockModelType": "full_block",

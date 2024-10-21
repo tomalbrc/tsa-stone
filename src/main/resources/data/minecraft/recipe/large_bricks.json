@@ -5,9 +5,7 @@
         "##"
     ],
     "key": {
-        "#": {
-            "item": "minecraft:bricks"
-        }
+        "#": "minecraft:bricks"
     },
     "result": {
         "id": "tsa:large_bricks",

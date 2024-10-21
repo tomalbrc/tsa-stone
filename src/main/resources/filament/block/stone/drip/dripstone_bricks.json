@@ -2,7 +2,7 @@
   "id": "tsa:dripstone_bricks",
   "blockResource": {
     "models" : {
-      "default": "minecraft:custom/block/dripstone/dripstone_bricks"
+      "default": "minecraft:item/custom/block/dripstone/dripstone_bricks"
     }
   },
   "blockModelType": "full_block",

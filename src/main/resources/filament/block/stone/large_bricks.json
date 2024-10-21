@@ -2,7 +2,7 @@
   "id": "tsa:large_bricks",
   "blockResource": {
     "models" : {
-      "default": "minecraft:custom/block/stone/large_bricks"
+      "default": "minecraft:item/custom/block/stone/large_bricks"
     }
   },
   "blockModelType": "full_block",
