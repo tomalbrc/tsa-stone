@@ -9,5 +9,16 @@
   "block.tsa.andesite_bricks": "Andesite Bricks",
   "block.tsa.diorite_bricks": "Diorite Bricks",
   "block.tsa.granite_bricks": "Granite Bricks",
-  "block.tsa.large_bricks": "Large Bricks"
+  "block.tsa.large_bricks": "Large Bricks",
+  "item.tsa.pebbles": "Pebbles",
+  "item.tsa.polished_dripstone_block": "Polished Dripstone Block",
+  "item.tsa.dripstone_bricks": "Dripstone Bricks",
+  "item.tsa.limestone": "Limestone",
+  "item.tsa.limestone_bricks": "Limestone Bricks",
+  "item.tsa.polished_limestone": "Polished Limestone",
+  "item.tsa.polished_stone": "Polished Stone",
+  "item.tsa.andesite_bricks": "Andesite Bricks",
+  "item.tsa.diorite_bricks": "Diorite Bricks",
+  "item.tsa.granite_bricks": "Granite Bricks",
+  "item.tsa.large_bricks": "Large Bricks"
 }
