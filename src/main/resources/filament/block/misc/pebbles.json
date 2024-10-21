@@ -2,10 +2,10 @@
   "id": "tsa:pebbles",
   "blockResource": {
     "models": {
-      "1": "minecraft:custom/block/stone/pebbles_1",
-      "2": "minecraft:custom/block/stone/pebbles_2",
-      "3": "minecraft:custom/block/stone/pebbles_3",
-      "4": "minecraft:custom/block/stone/pebbles_4"
+      "count=1": "minecraft:item/custom/block/stone/pebbles_1",
+      "count=2": "minecraft:item/custom/block/stone/pebbles_2",
+      "count=3": "minecraft:item/custom/block/stone/pebbles_3",
+      "count=4": "minecraft:item/custom/block/stone/pebbles_4"
     }
   },
   "itemResource": {
@@ -13,7 +13,9 @@
       "default": "minecraft:custom/block/stone/pebbles_item"
     }
   },
-  "type": "count",
+  "behaviour": {
+    "count": { "max": 4 }
+  },
   "blockModelType": "tripwire_block",
   "properties": {
     "destroyTime": 0,
