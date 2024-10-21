@@ -2,7 +2,7 @@
   "id": "tsa:polished_dripstone_block",
   "blockResource": {
     "models" : {
-      "default": "minecraft:custom/block/dripstone/polished_dripstone"
+      "default": "minecraft:item/custom/block/dripstone/polished_dripstone"
     }
   },
   "blockModelType": "full_block",

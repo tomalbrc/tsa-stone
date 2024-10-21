@@ -2,7 +2,7 @@
   "id": "tsa:andesite_bricks",
   "blockResource": {
     "models" : {
-      "default": "minecraft:custom/block/stone/andesite_bricks"
+      "default": "minecraft:item/custom/block/stone/andesite_bricks"
     }
   },
   "blockModelType": "full_block",

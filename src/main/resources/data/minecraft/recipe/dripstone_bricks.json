@@ -5,9 +5,7 @@
         "##"
     ],
     "key": {
-        "#": {
-            "item": "tsa:polished_dripstone_block"
-        }
+        "#": "tsa:polished_dripstone_block"
     },
     "result": {
         "id": "tsa:dripstone_bricks",

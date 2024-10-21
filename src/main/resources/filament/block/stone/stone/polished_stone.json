@@ -2,7 +2,7 @@
   "id": "tsa:polished_stone",
   "blockResource": {
     "models" : {
-      "default": "minecraft:custom/block/stone/polished_stone"
+      "default": "minecraft:item/custom/block/stone/polished_stone"
     }
   },
   "blockModelType": "full_block",

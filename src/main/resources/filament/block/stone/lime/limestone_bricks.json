@@ -2,7 +2,7 @@
   "id": "tsa:limestone_bricks",
   "blockResource": {
     "models" : {
-      "default": "minecraft:custom/block/stone/limestone_bricks"
+      "default": "minecraft:item/custom/block/stone/limestone_bricks"
     }
   },
   "blockModelType": "full_block",

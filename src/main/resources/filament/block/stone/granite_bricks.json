@@ -2,7 +2,7 @@
   "id": "tsa:granite_bricks",
   "blockResource": {
     "models" : {
-      "default": "minecraft:custom/block/stone/granite_bricks"
+      "default": "minecraft:item/custom/block/stone/granite_bricks"
     }
   },
   "blockModelType": "full_block",
