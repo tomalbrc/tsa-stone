@@ -1,16 +1,10 @@
 {
   "type": "crafting_shapeless",
   "ingredients": [
-    {
-      "item": "minecraft:quartz"
-    },
+    "minecraft:quartz",
     [
-      {
-        "item": "minecraft:sand"
-      },
-      {
-        "item": "minecraft:red_sand"
-      }
+      "minecraft:sand",
+      "minecraft:red_sand"
     ]
   ],
   "result": {
