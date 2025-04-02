@@ -1,9 +1,9 @@
 plugins {
-    id 'fabric-loom' version '1.7-SNAPSHOT'
+    id 'fabric-loom' version '1.10-SNAPSHOT'
     id 'maven-publish'
 }
 
-version = "${project.mod_version}+${project.minecraft_version_min}"
+version = "${project.mod_version}"
 group = project.maven_group
 
 base {
@@ -29,7 +29,7 @@ dependencies {
     modImplementation ("eu.pb4:polymer-resource-pack:${project.polymer_version}")
     modImplementation ("eu.pb4:polymer-autohost:${project.polymer_version}")
 
-    modImplementation("de.tomalbrc:filament:0.9.3+${project.minecraft_version}")
+    modImplementation("de.tomalbrc:filament:0.15.1+${project.minecraft_version}")
 }
 
 processResources {

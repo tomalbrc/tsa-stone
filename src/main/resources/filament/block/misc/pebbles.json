@@ -10,7 +10,7 @@
   },
   "itemResource": {
     "models": {
-      "default": "minecraft:custom/block/stone/pebbles_item"
+      "default": "minecraft:item/custom/block/stone/pebbles_item"
     }
   },
   "behaviour": {
